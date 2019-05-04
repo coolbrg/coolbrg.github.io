@@ -27,7 +27,9 @@ layout: default
     </div>
   </div>
   <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-    <h1 class="text-center">Latest Blogs</h1>
+    <div class="text-center h2">Latest Blogs 
+      <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark">All Blogs</a></span>
+    </div> 
     <div class="row">
       {% for post in site.posts limit: 3 %}
         {% include blogs/post-outline.html post=post %}
