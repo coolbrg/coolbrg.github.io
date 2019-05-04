@@ -1,7 +1,38 @@
 .profile-pic {
   height: 200px;
+  width: 200px;
+  text-align: center;
+  margin: auto;
 
-  img {
+  .image-wrapper img {
     height: 100%;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px #111;
   }
+}
+
+.profile-thumbnail-pic {
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  margin: auto;
+
+  .image-wrapper img {
+    height: 100%;
+    width: 100%;
+    padding: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0,0,0,0.125);
+    box-shadow: 0px 0px 5px 0px #111;
+  }
+}
+
+.profile-footer-pic::after {
+  display: block;
+  content: "";
+  position: relative;
+  top: -30px;
+  z-index: -100;
+  border-bottom: 1px solid rgb(231, 238, 242);
 }

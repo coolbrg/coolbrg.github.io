@@ -1,5 +1,5 @@
-title: Foo Bar
-email: bloggerfoobar@yahoo.com
+title: Cool BRG
+email: budhramgurung@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am Foo Bar. This is my blogging platform. Programmers use me as a
   placeholder name in their Computer programs to name entities such as
@@ -7,25 +7,12 @@ description: >- # this means to ignore newlines until "baseurl:"
   than the identity.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: bloggerfoobar
 future: true # Show blog post of future date
 
-google_analytics: foo-bar-google-analytics-id # Replace it with your ID starting as UA-
+google_analytics: UA-133657720-1
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/

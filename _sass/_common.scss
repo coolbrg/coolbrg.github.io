@@ -1,9 +1,13 @@
+body {
+  font-family: "Open Sans", "Roboto", "Oxygen", "Ubuntu", "Helvetica Neue", Arial, sans-serif;
+}
+
 .header {
   line-height: 1;
   border-bottom: 1px solid #e5e5e5;
 
   .brand-logo {
-    height: 60px;
+    height: 50px;
     display: block !important;
 
     img {
@@ -11,4 +15,42 @@
       padding: 5px;
     }
   }
+}
+
+.navbar {
+  padding: 5px;
+}
+
+.social-links {
+  font-size: 1.8em;
+}
+.fa-twitter {
+  color: #38A1F3;
+}
+.fa-facebook-f {
+  color: #4267b2;
+}
+.fa-github {
+  color: #333;
+}
+.fa-linkedin-in {
+  color: #0077B5
+}
+.fa-envelope {
+  color: #777;
+}
+.fa-instagram {
+  color: #E1306C;
+}
+.fa-rss-square {
+  color: #ee802f;
+}
+.img-full-width {
+  width: 100%;
+}
+.img-full-height {
+  height: 100%;
+}
+.goback-link {
+  color: #007bff !important;
 }

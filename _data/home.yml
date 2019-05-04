@@ -1,0 +1,29 @@
+contacts:
+  twitter:
+    url: https://twitter.com/coolbrg/
+    label: Twitter
+    class: fab fa-twitter
+  github:
+    url: https://github.com/coolbrg/
+    label: GitHub
+    class: fab fa-github
+  facebook:
+    url: https://www.facebook.com/cooolbrg
+    label: Facebook
+    class: fab fa-facebook-f
+  linkedin:
+    url: https://www.linkedin.com/in/coolbrg
+    label: LinkdIn
+    class: fab fa-linkedin-in
+  instagram:
+    url: https://instagram.com/cooolbrg
+    label: Instagram
+    class: fab fa-instagram
+  email:
+    url: mailto:budhramgurung@gmail.com
+    label: Email
+    class: fas fa-envelope
+  rss:
+    url: /feed.xml
+    label: Subscribe
+    class: fas fa-rss-square  

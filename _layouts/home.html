@@ -2,44 +2,36 @@
 layout: default
 ---
 
-<div class="row home my-md-4">
-  <div class="col-md-3 col-sm-3 col-xs-12 border-secondary border-right text-center">
-    <h1>About Me</h1>
+<div id="home" class="row my-md-4">
+  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 border-secondary border-right text-center">
+    <h1>About</h1>
     <div class="profile-pic">
-      <img src="{{ "/assets/img/logo.png" | relative_url }}" alt="Blogger Foo Bar" class="rounded-circle" />
+      {% assign site_title = site.title %}
+      {% include image.html 
+                 img="/profile_pic.png"
+                 title=site_title
+                 class="rounded-circle"
+      %}
     </div>
     <div class="about-brief-info text-muted">
-      I am Foo Bar. This is my blogging platform. Programmers use me as a placeholder name in their Computer programs to
-      name entities such as <i>Variables, Functions, Commands</i> etc to demonstrate concept rather 
-      than the someone's identity.
+      {{ site.data.about.brief_intro }}
     </div>
+    <a href="/about" role="button" class="btn btn-sm btn-danger">Know More</a>
     <div class="social-links mt-2">
-      <a href="https://twitter.com/{{ site.twitter_username | cgi_escape | escape }}"
-        title="{{ site.twitter_username | escape }}" target="_blank">
-        <i class="fab fa-twitter mr-1"></i>
-        {{ site.twitter_username }}
-      </a>
+      {% for contacts_hash in site.data.home.contacts %}
+        {% assign contact = contacts_hash[1] %}
+        <a href="{{ contact.url }}" target="_blank" alt="{{ contact.label }}">
+          <i class="{{ contact.class }}"></i>
+        </a>
+      {% endfor %}
     </div>
   </div>
-  <div class="col-md-9 col-sm-9 col-xs-12">
+  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
     <h1 class="text-center">Latest Blogs</h1>
-    {% for post in site.posts %}
-    <div class="blog-post-short mb-2">
-      <h4><a href="{{ post.url | prepend: site.baseurl }}" class="bold">{{ post.title }}</a></h4>
-      <p class="post-info-wrapper"><i class="far fa-calendar-alt mr-1"></i>{{ post.date | date_to_long_string }}
-        {% include read-time.html
-                     content=post.content
-                     bracket_start='('
-                     bracket_end=')'
-                     unit='min'
-                     approx='true'
-                     caption='read'
-          %}
-      </p>
-      <p class="text-muted">
-        {{ post.content | strip_html | truncatewords: 50 }}
-      </p>
+    <div class="row">
+      {% for post in site.posts limit: 3 %}
+        {% include blogs/post-outline.html post=post %}
+      {% endfor %}
     </div>
-    {% endfor %}
   </div>
 </div>
