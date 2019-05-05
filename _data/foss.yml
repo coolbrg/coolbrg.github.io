@@ -1,0 +1,21 @@
+projects:
+  - name: Emerging Technology Trust (ETT)
+    description: |
+      A non-profit organisation which focuses on creating opportunities & conducting events to promote Open Source contributions in India.
+      <br>
+      Organizing conferences like <b>RubyConfIndia, GopherConIndia, DevOpsDays India</b> etc.
+    url: https://ettindia.org
+    src: https://github.com/ettindia/ettindia.github.io
+    img: /company/ett.png
+  - name: Gurucoool
+    description: |
+      An online learning portal for self-learners
+    url: https://gurucoool.org
+    src: https://github.com/gyanguru/
+    img: /foss/gurucoool.png 
+  - name: Blogger Foo
+    description: |
+      A blogging theme for Developers
+    url: https://bloggerfoo.github.io
+    src: https://github.com/bloggerfoo/bloggerfoo.github.io
+    img: /foss/foo.png

@@ -26,17 +26,38 @@ layout: default
       {% endfor %}
     </div>
   </div>
+
   <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 p-0">
-    <div class="home-blog-section alt-bg-color2 p-4">
-      <div class="text-center h2">Latest Blogs
-        <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark"><i
-              class="fas fa-list-alt mr-2"></i>All Blogs</a></span>
-      </div>
-      <div class="row">
-        {% for post in site.posts limit: 3 %}
-        {% include blogs/post-outline.html post=post %}
-        {% endfor %}
+    <!-- Blogs Work -->
+    <div class="row">
+      <div class="home-blog-section alt-bg-color2 p-4">
+        <div class="text-center h4">Latest Blogs
+          <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark">
+            <i class="fas fa-list-alt mr-2"></i>View All</a>
+          </span>
+        </div>
+        <div class="row">
+          {% for post in site.posts limit: 3 %}
+            {% include blogs/post-outline.html post=post %}
+          {% endfor %}
+        </div>
       </div>
     </div>
-  </div>  
+
+    <!-- FOSS Work -->
+    <div class="row">
+      <div class="home-foss-section alt-bg-color3 p-4">
+        <div class="text-center h4">Latest FOSS Work
+          <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark">
+            <i class="fas fa-list-alt mr-2"></i>View All</a>
+          </span>
+        </div>
+        <div class="row">
+          {% for project in site.data.foss.projects limit: 3 %}
+            {% include project-outline.html project=project %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div> 
 </div>
