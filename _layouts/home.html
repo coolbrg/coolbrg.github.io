@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div id="home" class="row my-md-4">
-  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 border-secondary border-right text-center">
+  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 border-secondary alt-bg-color1 border-right text-center">
     <h1>About</h1>
     <div class="profile-pic">
       {% assign site_title = site.title %}
@@ -26,14 +26,17 @@ layout: default
       {% endfor %}
     </div>
   </div>
-  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12">
-    <div class="text-center h2">Latest Blogs 
-      <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark">All Blogs</a></span>
-    </div> 
-    <div class="row">
-      {% for post in site.posts limit: 3 %}
+  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 p-0">
+    <div class="home-blog-section alt-bg-color2 p-4">
+      <div class="text-center h2">Latest Blogs
+        <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark"><i
+              class="fas fa-list-alt mr-2"></i>All Blogs</a></span>
+      </div>
+      <div class="row">
+        {% for post in site.posts limit: 3 %}
         {% include blogs/post-outline.html post=post %}
-      {% endfor %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  </div>  
 </div>
