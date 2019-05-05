@@ -21,6 +21,11 @@ body {
   padding: 5px;
 }
 
+.navbar .active .nav-link {
+  background: lightgray;
+  border-radius: 5px;
+}
+
 .social-links {
   font-size: 1.8em;
 }
