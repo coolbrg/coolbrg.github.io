@@ -5,9 +5,11 @@ permalink: /blogs/
 ---
 
 <div id="blogs-page">
-  <div class="container blogs-page-body">
+  <div class="container blogs-page-body pt-4">
     <div class="row">
-      {% include blogs/landing.html %}
+      {% for post in site.posts %}
+        {% include blogs/post-outline.html post=post %}
+      {% endfor %}
     </div>
   </div>
 </div>
