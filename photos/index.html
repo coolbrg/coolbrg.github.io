@@ -1,0 +1,10 @@
+---
+layout: default
+title: "Budh Ram: Photos"
+---
+
+<div class="row text-center mt-md-4">
+  {% for photo in site.data.photos %}
+    {% include photo-outline.html photo=photo %}
+  {% endfor %}
+</div>
