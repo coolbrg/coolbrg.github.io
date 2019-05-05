@@ -11,8 +11,13 @@ future: true # Show blog post of future date
 
 google_analytics: UA-133657720-1
 
+pagination:
+  enabled: true
+
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-gist
+  - jekyll-paginate-v2
