@@ -4,8 +4,7 @@
   {% include head.html %}
 
   <body>
-
-    <div class="container-fluid">
+    <div class="container{% if page.path == 'index.md' %}-fluid{% endif %}">
 
       {% include header.html %}
 
