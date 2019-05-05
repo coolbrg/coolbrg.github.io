@@ -1,0 +1,28 @@
+- company: GbrG Academy
+  from: Feb 1, 19
+  to: Present
+  direction: direction-l
+  description: Working as a Founder & Director
+  image: "gbrg.png"
+
+- company: Averon Media
+  from: Dec 10, 18
+  to: April 30, 19
+  direction: direction-r
+  description: Worked as a Director & CTO
+  image: "averon.png"
+
+- company: Red Hat
+  from: Feb 8, 16
+  to: Dec 5, 18
+  direction: direction-l
+  description: Worked as Senior Software Engineer on Container Based Projects
+  image: "redhat.png"
+
+- company: Vertis Microsystems
+  from: Aug 16, 11
+  to: Jan 29, 16
+  direction: direction-r
+  description: Started as Intern, Worked as Full-Stack Software Engineer
+  image: "vertis.png"
+

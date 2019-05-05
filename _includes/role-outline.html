@@ -1,0 +1,15 @@
+<div class="col-md-6 col-sm-12 text-center role-card">
+  <div class="role-content p-3">
+    {% capture image_path %}company/{{ include.role.logo }}{% endcapture %}
+    {% capture target_url %}{{ include.role.link }}{% endcapture %}
+    {% include image.html
+               img=image_path
+               url=target_url
+               class="centered"
+    %}
+    <h4 class="mb-2 text-center">{{ include.role.designation }}</h4>
+    <p class="role-desc">
+      {{ include.role.intro }}
+    </p>
+  </div>
+</div>

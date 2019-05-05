@@ -1,0 +1,28 @@
+---
+layout: default
+title: About
+permalink: /about/
+---
+
+<div class="about-section py-4">
+  <h2 align="center" class="p-1">Brief Intro</h2>
+  <p class="intro-body">
+    {{ site.data.about.brief_intro }}
+  </p>
+
+  <div class="text-center">
+    <!-- GbrG Academy-->
+    <h2 class="p-1">Current Roles</h2>
+    <div class="row text-center">
+      {% for role in site.data.roles %}
+        {% include role-outline.html role=role %}
+      {% endfor %}
+    </div>
+  </div>
+  <div class="text-center">
+    <h2 class="p-1">Journey</h2>
+    <div class="col-sm-12">
+      {% include timeline.html %}
+    </div>
+  </div>
+</div>
