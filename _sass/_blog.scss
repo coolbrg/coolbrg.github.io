@@ -62,6 +62,9 @@ ul.blog_events_list li i {
 .blog-card .post-img {
   margin: auto;
 }
+.blog-card .post-img img {
+  margin-left: 0 !important;  
+}
 .card-body {
   padding: 0.5em;
 }
