@@ -2,25 +2,14 @@
 layout: default
 title: Blogs
 permalink: /blogs/
-pagination:
-  enabled: true
-  per_page: 6
-  sort_field: 'date'
-  sort_reverse: true
-  title: ':title | :num of :max'
-  trail:
-    before: 2
-    after: 2
 ---
 
 <div id="blogs-page">
   <div class="blogs-page-body py-4">
     <div class="row">
-      {% for post in paginator.posts %}
+      {% for post in site.posts %}
         {% include blogs/post-outline.html post=post %}
       {% endfor %}
-
-      {% include pagination.html %}
     </div>
   </div>
 </div>
