@@ -12,7 +12,7 @@
 <div class="row">
   <div class="col-sm col-sm-7">
     <a href="{{ site.url }} ">
-      <h3>{{ site.name }}</h3>
+      <h5>{{ site.title }}</h5>
     </a>
     <p class="h5">
       Thank you for reading the post. <a onclick="window.history.back()">Click to <span class="goback-link">Go Back.</span></a>
@@ -20,11 +20,11 @@
   </div>
   <div class="col-sm">
     <h3>Share &nbsp;
-      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ site.url }}{{ page.url }}" target="_blank" title="Share on Twitter" class="fab fa-twitter"></a>
-      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank"
+      <a href="https://twitter.com/intent/tweet?text={{ page.title }}&url={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}" target="_blank" title="Share on Twitter" class="fab fa-twitter"></a>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&url={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}&title={{ page.title }}" target="_blank"
         title="Share on LinkedIn" class="fab fa-linkedin-in"></a>
-      <a href="https://www.facebook.com/sharer.php?u={{ site.url }}{{ page.url }}&title={{ page.title }}" target="_blank" title="Share on Facebook" class="fab fa-facebook"></a>
-      <a href="mailto:?subject={{ page.title }}&amp;body=Check out this nice blog {{ site.url }}{{ page.url }}"
+      <a href="https://www.facebook.com/sharer.php?u={{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}&title={{ page.title }}" target="_blank" title="Share on Facebook" class="fab fa-facebook"></a>
+      <a href="mailto:?subject={{ page.title }}&amp;body=Check out this nice blog {{ page.url | prepend: site.baseurl | prepend: site.url | uri_escape }}"
         title="Share via Email">
         <i class="fa fa-envelope"></i>
       </a>
