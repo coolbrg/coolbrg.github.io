@@ -3,6 +3,7 @@ contacts:
     url: https://twitter.com/coolbrg/
     label: Twitter
     class: fab fa-twitter
+    username: "@coolbrg"
   github:
     url: https://github.com/coolbrg/
     label: GitHub
