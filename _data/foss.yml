@@ -10,9 +10,9 @@ projects:
   - name: Gurucoool
     description: |
       An online learning portal for self-learners
-    url: https://gurucoool.org
+    url: https://gurucoool.github.io
     src: https://github.com/gyanguru/
-    img: /foss/gurucoool.png 
+    img: /foss/gurucoool.png
   - name: Blogger Foo
     description: |
       A blogging theme for Developers
