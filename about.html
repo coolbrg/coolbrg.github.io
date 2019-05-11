@@ -14,11 +14,12 @@ permalink: /about/
     <!-- GbrG Academy-->
     <h2 class="p-1">Current Roles</h2>
     <div class="row text-center">
-      {% for role in site.data.roles %}
+      {% for role in site.data.about.roles %}
         {% include role-outline.html role=role %}
       {% endfor %}
     </div>
   </div>
+  
   <div class="text-center">
     <h2 class="p-1">Journey</h2>
     <div class="col-sm-12">
