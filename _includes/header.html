@@ -12,10 +12,10 @@
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-  
+
     <div class="nav collapse navbar-collapse justify-content-end text-center" id="navbarSupportedContent">
       <ul class="navbar-nav">
-        <li class="nav-item {% if page.title == 'Blogs' %}active{% endif %}"><a class="nav-link" href="/blogs">Blogs</a></li>
+        <li class="nav-item {% if page.title == 'Blogs' or page.layout == 'post' %}active{% endif %}"><a class="nav-link" href="/blogs">Blogs</a></li>
         <li class="nav-item {% if page.title == 'FOSS' %}active{% endif %}"><a class="nav-link" href="/foss">FOSS</a></li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
