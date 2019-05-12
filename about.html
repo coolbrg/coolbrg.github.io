@@ -11,9 +11,8 @@ permalink: /about/
   </p>
 
   <div class="text-center">
-    <!-- GbrG Academy-->
     <h2 class="p-1">Current Roles</h2>
-    <div class="row text-center">
+    <div class="d-sm-flex justify-content-center">
       {% for role in site.data.about.roles %}
         {% include role-outline.html role=role %}
       {% endfor %}

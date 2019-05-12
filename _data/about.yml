@@ -7,24 +7,25 @@ brief_intro: |
   <br><br>
   I believe in <i>Learn-Teach Cycle</i> principle and hence started my own Academy named
   <a href="http://gbrgacademy.com" target="_blank">GbrG Academy</a>.
-  Feel free to read it's inception story 
+  Feel free to read its inception story
   <a href="https://gbrgacademy.com/blogs/inception-of-gbrg-academy" target="_blank">here</a>.
 roles:
+# Max three current roles
   - company: GbrG Academy
     designation: Founder & Director
     logo: gbrg.png
     link: https://gbrgacademy.com
     intro: |
-      GbrG Academy is or will be going to spread Education which has been acquired completely 
-      out of real world experiences apart from the Bookish knowledge. The approach of teaching 
+      GbrG Academy is or will be going to spread Education which has been acquired completely
+      out of real world experiences apart from the Bookish knowledge. The approach of teaching
       will be based mostly around Cognitive Learning and Feedback Driven Learning.
   - company: ETT India
     designation: Website Maintainer
     logo: ett.png
     link: https://ettindia.org
     intro: |
-      ETT India is a non-profit organisation which focuses on creating opportunities & conducting 
-      events to promote Open Source contributions in India. They are regularly organizing the 
+      ETT India is a non-profit organisation which focuses on creating opportunities & conducting
+      events to promote Open Source contributions in India. They are organizing the
       national-level conferences like RubyConf India, Gophercon India, DevOpsDays India etc.
 journey:
   - company: GbrG Academy
