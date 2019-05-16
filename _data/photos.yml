@@ -1,6 +1,9 @@
 - name: Barpak (My Village)
   album_url: https://www.flickr.com/photos/budhram_/albums/72157679997886838/
   pic: barpak.jpg
+- name: Kathmandu
+  album_url: https://www.flickr.com/photos/budhram_/albums/72157680281924798
+  pic: kathmandu.png
 - name: Macro Photos
   album_url: https://www.flickr.com/photos/budhram_/albums/72157677961674297
   pic: macro.jpg

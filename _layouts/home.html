@@ -42,18 +42,20 @@ layout: default
       </div>
     </div>
 
-    <!-- FOSS Work -->
-    <div class="home-foss-section alt-bg-color3">
-      <div class="text-center h4">Latest FOSS Work
-        <span class="float-right"><a href="/foss" role="button" class="btn btn-sm btn-dark">
-          <i class="fas fa-list-alt mr-2"></i>View All</a>
-        </span>
+    {% if site.data.projects.size >= 1 %}
+      <!-- FOSS Work -->
+      <div class="home-foss-section alt-bg-color3">
+        <div class="text-center h4">Latest FOSS Work
+          <span class="float-right"><a href="/foss" role="button" class="btn btn-sm btn-dark">
+            <i class="fas fa-list-alt mr-2"></i>View All</a>
+          </span>
+        </div>
+        <div class="row">
+          {% for project in site.data.foss.projects limit: 3 %}
+            {% include project-outline.html project=project %}
+          {% endfor %}
+        </div>
       </div>
-      <div class="row">
-        {% for project in site.data.foss.projects limit: 3 %}
-          {% include project-outline.html project=project %}
-        {% endfor %}
-      </div>
-    </div>
+    {% endif %}  
   </div> 
 </div>
