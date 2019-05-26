@@ -130,6 +130,13 @@ img.centered {
     border: 0.11em solid #f06292;
     width: 25%;
   }  
+
+  .image-wrapper .image-caption {
+    text-align: center;
+    font-size: 11px;
+    color: grey;
+    margin: 0.5em 0;
+  }
 }
 .post-area {
   padding: 10px;
