@@ -36,7 +36,7 @@ I managed to get two colleagues([Mohammad Zeeshan](https://twitter.com/zee_10000
 %}
 
 Finally, the event day arrived. I reached on time at ~7:30 AM at Taj Vivanta by **Ola Auto**.
-After getting instructions from [**Gautam**]( 'Organizer'), we started to put the stuff like Digital Ocean
+After getting instructions from [**Gautam**](https://twitter.com/gautamrege), we started to put the stuff like Digital Ocean
 credit sticker, writing pad, bottle etc into beautiful conference bag. Meanwhile, others were busy in unpacking the
 T-shirts. Along with conference T-shirt, there were others T-shirts that were sponsored by companies like Go-Jek, Minio, Exotel etc.
 
