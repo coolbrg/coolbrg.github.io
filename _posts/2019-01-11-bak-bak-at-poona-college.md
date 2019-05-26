@@ -135,13 +135,12 @@ Finally, it was time to summarize the whole _Bak-Bak_.
 
 And, we came into following _bullet-phrases_ on which they need to work on
 
-> - Keep good attitude
-> - Have right approach
-> - Be Open
-> - Have good communication skills
-> - Keep yourself upto date
-> - Motivate yourself
-> - Make mistakes but don't try to repeat
+{% include blogs/quote.html 
+           quote="1. Keep Good Attitude<br>2. Have Right Approach<br>3. Be Open<br>
+           4. Have Good Communication Skills<br>5. Keep yourself Upto Date<br>6. Motivate Yourself<br>
+           7. Make Mistakes but try avoid to repeat"
+           quote_with_bar=true
+%}
 
 ## Disclaimer
 
