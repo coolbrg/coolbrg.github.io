@@ -124,7 +124,9 @@ Apart from above, I had the chance to take selfies with few prominent speakers a
 My frequency of volunteering had reached to a level where I was known as the __*Default Volunteer*__ among few of the
 Organizers of the events organized under [Emerging Technology Trust (ETT), India](https://ettindia.org).
 
-Out of the following tasks,
+I would like to give special thanks to [Satish Sir](https://twitter.com/indianguru) for always giving me chance of volunteering whenever I asked for. I am just speechless when I see his dedication over community events even at the age of 60+.
+
+Out of the following tasks in volunteering,
 
 {% include blogs/quote.html
            quote="1. Registration Desk<br>2. Following Up Speakers<br>3. Segregation & Distribution of Swags<br>
