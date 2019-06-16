@@ -13,6 +13,7 @@ group :jekyll_plugins do
   gem 'jekyll-gist'
   gem 'jemoji'
   gem 'jekyll-paginate', '1.1.0'
+  gem 'jekyll-admin', '0.8.1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
