@@ -20,7 +20,7 @@ It is always better to run the documentation of library locally as you won't be 
 
 Recently, I got chance to work with [AngularJS](http://angularjs.org) in one of my project.
 
-I chose my favorite CSS framework [Twitter Bootstrap](http://getbootstrap.com) and also came to know about [Angular UI Boostrap](https://angular-ui.github.io/bootstrap/") which is a set of bootstrap components in AngularJS.
+I chose my favorite CSS framework [Twitter Bootstrap](http://getbootstrap.com) and also came to know about [Angular UI Boostrap](https://angular-ui.github.io/bootstrap/) which is a set of bootstrap components in AngularJS.
 
 I googled a lot on
 
