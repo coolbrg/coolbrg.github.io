@@ -5,7 +5,7 @@ layout: default
 <div id="home" class="row">
   <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 border-secondary alt-bg-color1 border-right text-center">
     <h1>About</h1>
-    <div class="profile-pic">
+    <div class="profile-pic mb-4">
       {% assign site_title = site.title %}
       {% include image.html 
                  img="/profile_pic.png"
@@ -14,10 +14,11 @@ layout: default
       %}
     </div>
     <div class="about-brief-info text-muted">
-      {{ site.data.about.brief_intro }}
+      {{ site.data.about.brief_intro | truncatewords: 45 }}
+      <a href="/about" role="button" class="btn btn-sm btn-danger">Know More</a>
     </div>
-    <a href="/about" role="button" class="btn btn-sm btn-danger">Know More</a>
-    <div class="social-links mt-2">
+
+    <div class="social-links m-5">
       {% for contacts_hash in site.data.home.contacts %}
         {% assign contact = contacts_hash[1] %}
         <a href="{{ contact.url }}" target="_blank" alt="{{ contact.label }}">

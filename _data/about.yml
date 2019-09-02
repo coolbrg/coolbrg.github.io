@@ -1,17 +1,24 @@
 tagline: Trying to Live Simple Life
 brief_intro: |
-  I would preferred to be called as <b>BRG</b> although my full name is <i>Budh Ram Gurung</i>. <br>
-  I am a <a href="https://en.wikipedia.org/wiki/Gurkha" target="_blank">Gorkha,</a> and consider myself as
-  FOSSPAA (<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a>
-  Project Architect & Advocate). I have gained most of my knowledge through self learning, also 
-  termed as <i>Self-motivated</i>.
+  I would preferred to be called as <b>BRG</b> although my full name is <i>Budh Ram Gurung</i>. <br><br>
+  I am a <a href="https://en.wikipedia.org/wiki/Gurkha" target="_blank"><i>Gorkha</i>,</a> 
+  passionate <i>Educator</i>, <i>Trainer</i>, <i>Social Entrepreneur</i> and consider myself as
+  <i>FOSS PAA (<a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a>
+  Project Architect & Advocate)</i>.<br><br>I have gained most of my knowledge through self learning and follows
+  <i>Learn-Teach Cycle</i> practice.
   <br><br>
-  I believe in <i>Learn-Teach Cycle</i> principle and hence started my own Academy named
-  <a href="http://gbrgacademy.com" target="_blank">GbrG Academy</a>.
-  Feel free to read its inception story
-  <a href="https://gbrgacademy.com/blogs/inception-of-gbrg-academy" target="_blank">here</a>.
+  Being involved in <i><b>Open Source & its Culture</b></i> was the best thing that happened in my
+  professional career and believe that <i>"Open Source is the Future"</i>.
 roles:
 # Max three current roles
+  - company: SYF Nepal
+    designation: Chief Technology Officer(CTO)
+    logo: syf.png
+    link: https://syfnepal.com
+    intro: |
+      Siris Youth Foundation(SYF) is a social enterprise company and was established in 2016. 
+      They help their client in their business with their IT and Multimedia capabilities.
+      They would work hand to hand to support their client's growth. 
   - company: GbrG Academy
     designation: Founder & Director
     logo: gbrg.png
@@ -29,6 +36,12 @@ roles:
       events to promote Open Source contributions in India. They are organizing the
       national-level conferences like RubyConf India, Gophercon India, DevOpsDays India etc.
 journey:
+  - company: Siris Youth Foundation(SYF) Nepal
+    from: Aug 25, 2019
+    to: Present
+    direction: direction-r
+    designation: Chief Technology Officer(CTO
+    image: "syf.png"
   - company: GbrG Academy
     from: Feb 1, 2019
     to: Present
