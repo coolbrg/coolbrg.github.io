@@ -15,6 +15,7 @@ google_analytics: UA-133657720-1
 
 paginate: 6
 paginate_path: "/blogs/page:num"
+permalink: /blogs/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
