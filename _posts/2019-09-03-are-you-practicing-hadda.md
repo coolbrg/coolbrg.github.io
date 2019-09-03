@@ -16,7 +16,8 @@ thumbnail_path: blog/hadda.png
 ---
 
 {% include blogs/opening-para.html
-            para="Whenever I am in the wilderness of my own personal space, I usually give a thought on how I as a human being survived so far in this brutal world. A world with lot of unknown people, known friends unkowningly betraying you in need, health or financial issues, a blurry religious or traditional conceptions which had to be followed forcefully against your inner nature etc etc. In the race of materialistic success, we have forgot our _self_ and looking for piece and happiness outside of it. I recommend you to give a thought to your inner self."
+            para="Whenever I am in the wilderness of my own personal space, I usually give a thought on how I as a human being survived so far in this brutal world. A world with lot of unknown people, known friends unkowningly betraying you in need, health or financial issues, a blurry religious or traditional conceptions which had to be followed forcefully against your inner nature etc. <br><br> 
+            Considerably, in the race of materialistic success, we have forgot our _self_ and looking for piece and happiness outside of it. I recommend you to give a thought to your inner self."
 %}
 
 {% include blogs/disclaimer.html 
