@@ -106,12 +106,16 @@ img.centered {
 }
 .post-title {
   color: #f06292;
-  font-family: "Open Sans", sens-serif1;
+  font-family: "Open Sans", sans-serif;
 }
 .post-body .opening-text {
-  font-size: 18px;
-  color: #111;
-  font-style: italic;
+  font-size: 20px;
+  color: #555;
+  font-family: 'Oswald', sans-serif;
+}
+.disclaimer-text{
+  font-size: 14px;
+  color: #777;
 }
 .post-body {
   font-size: 15px;
