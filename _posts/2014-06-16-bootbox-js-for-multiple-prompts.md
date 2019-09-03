@@ -12,7 +12,7 @@ tags:
 - partial
 - twitter-bootstrap
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/bootbox.png
 ---
 

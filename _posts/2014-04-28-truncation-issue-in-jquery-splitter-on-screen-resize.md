@@ -11,7 +11,7 @@ tags:
 - splitter
 - workaround
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/splitter/minimized.png
 ---
 

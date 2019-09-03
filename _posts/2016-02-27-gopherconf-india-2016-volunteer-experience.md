@@ -13,7 +13,7 @@ tags:
 - event
 - go
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/gophercon/thumbnail-2016.png
 ---
 

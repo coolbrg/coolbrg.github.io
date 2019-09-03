@@ -9,7 +9,7 @@ tags:
 - js-plugins
 - splitter
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/splitter/three_pane.jpg
 ---
 

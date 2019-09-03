@@ -15,7 +15,7 @@ tags:
 status: publish
 type: post
 published: true
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/minishift.png
 ---
 

@@ -9,7 +9,7 @@ tags:
 - event
 - ruby
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/rubyconf2016/thumbnail.png
 ---
 

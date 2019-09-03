@@ -12,7 +12,7 @@ tags:
 - jekyll
 - locally
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/docs/docs.png
 ---
 

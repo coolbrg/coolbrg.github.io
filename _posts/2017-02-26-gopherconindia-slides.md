@@ -9,7 +9,7 @@ tags:
 - event
 - golang
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/gophercon/thumbnail-2017.png
 ---
 

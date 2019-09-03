@@ -1,6 +1,6 @@
 ---
 layout: post
-author: Budh Ram Gurung
+author: BRG
 title: "Intro to Splat (*) operator in Ruby"
 date: 2012-09-15 16:52:33.000000000 +05:30
 categories:

@@ -11,7 +11,7 @@ tags:
 - twitter-bootstrap
 - typeaheadjs
 type: post
-author: Budh Ram Gurung
+author: BRG
 thumbnail_path: blog/typeaheadjs.png
 ---
 
