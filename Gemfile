@@ -1,5 +1,6 @@
 source "https://rubygems.org"
 
+gem "nokogiri", ">= 1.10.4"
 gem "jekyll", "~> 3.8.5"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
