@@ -6,15 +6,17 @@ title: Blogs
   <div class="my-4">
     <!-- Wrapper Start -->
     <div class="row">
-      <div class="col-md-12 cover-image">
-        {% assign cover-img=page.cover_img %}
-        {% assign img-title=page.title %}
-        {% include image.html
-                      img=cover-img
-                      title=img-title
-                      class="full-width"
-        %}
-      </div>
+      {% if page.cover_img %}
+        <div class="col-md-12 cover-image">
+          {% assign cover-img=page.cover_img %}
+          {% assign img-title=page.title %}
+          {% include image.html
+                        img=cover-img
+                        title=img-title
+                        class="full-width"
+          %}
+        </div>
+      {% endif %}  
       
       <div class="col-md-12 post-container">
         <h3 class="post-title">{{ page.title }}</h3>
