@@ -35,14 +35,14 @@ layout: default
     <div class="home-right-section mt-4">
       <div class="text-center">
         <h4>LATEST BLOGS</h4>
-        <span class="float-right"><a href="/blogs" role="button" class="btn btn-sm btn-dark">
-          <i class="fas fa-list-alt mr-2"></i>View All</a>
-        </span>
       </div>
       <div class="row">
         {% for post in site.posts limit: 3 %}
           {% include blogs/post-outline.html post=post %}
         {% endfor %}
+      </div>
+      <div class="text-center"><a href="/blogs" role="button" class="btn btn-sm btn-dark">
+        <i class="fas fa-list-alt mr-2"></i>View All</a>
       </div>
     </div>
 
@@ -53,14 +53,14 @@ layout: default
       <div class="home-right-section mt-4">
         <div class="text-center">
           <h4>LATEST PROJECTS</h4>
-          <span class="float-right"><a href="/foss" role="button" class="btn btn-sm btn-dark">
-            <i class="fas fa-list-alt mr-2"></i>View All</a>
-          </span>
         </div>
         <div class="row">
           {% for project in site.data.foss.projects limit: 3 %}
             {% include project-outline.html project=project %}
           {% endfor %}
+        </div>
+        <div class="text-center"><a href="/foss" role="button" class="btn btn-sm btn-dark">
+            <i class="fas fa-list-alt mr-2"></i>View All</a>
         </div>
       </div>
     {% endif %}  
