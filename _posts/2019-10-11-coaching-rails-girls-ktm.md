@@ -15,12 +15,8 @@ type: post
 published: true
 author: BRG
 thumbnail_path: blog/rails-girls-ktm.jpg
+cover_img: blog/railsgirlsktm/banner.jpg
 ---
-{% include image.html
-           img="/blog/railsgirlsktm/banner.jpg"
-           title="Group Photo"
-           caption="Group Photo"
-%}
 
 {% include blogs/opening-para.html
             para="As per the Stack OverFlow's 2019 survey, women comprise nearly 8% in the field of Software Development across the world. In order to improve the participation of women in the IT field, there had been many initiatives started and running all over the world.
