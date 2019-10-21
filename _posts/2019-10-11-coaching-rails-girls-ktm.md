@@ -64,7 +64,7 @@ After that, we all started with the workshop. Our schedule looked like:
                   * Host the app through Heroku<br>"
 %}
 
-It was quite surprised with a few of the participants who really deployed with the first application in _Heroku_. Fewer of them were taking time. We noticed that participants with Windows OS were taking longer time. Few of the gems(packages) were unable to get installed for which we, as a coach, need to intervene and resolve their issues.
+I was quite surprised with a few of the participants who really deployed their first application in _Heroku_. Fewer of them were taking time. We noticed that the participants with Windows OS were taking longer time. They were not able to install few of the gems(packages) for which we, as a coach, need to intervene and resolve their issues.
 
 {% include blogs/quote.html
            quote="Ruby gems are not smoother in Windows in the context of the installation."
@@ -91,5 +91,5 @@ The event was officially ended with a group photo.
 My overall experience of coaching was wonderful at this event. I observed that the girls in Nepal have the potential too to meet with the industry expectations. Although the numbers were less for the first edition of Rails Girls Kathmandu as compare to the Pune edition, I have a feeling that it will grow as we organize such events in future.   
 
 {% include blogs/ending-note.html
-           para="Looking forward to the next edition of Rails Girls Kathmandu with our more Chelis."
+           para="Looking forward to the next edition of Rails Girls Kathmandu with our more girls."
 %}
