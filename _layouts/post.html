@@ -2,11 +2,21 @@
 layout: default
 title: Blogs
 ---
-<div id="blog-post-page">
+<div class="blog-post-page">
   <div class="my-4">
     <!-- Wrapper Start -->
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 cover-image">
+        {% assign cover-img=page.cover_img %}
+        {% assign img-title=page.title %}
+        {% include image.html
+                      img=cover-img
+                      title=img-title
+                      class="full-width"
+        %}
+      </div>
+      
+      <div class="col-md-12 post-container">
         <h3 class="post-title">{{ page.title }}</h3>
         <div class="row post-info">
           <div class="col-md-6 col-sm-12 blog-card-heading">
