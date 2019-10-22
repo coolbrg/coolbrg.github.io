@@ -1,11 +1,12 @@
 title: Cool BRG
 email: budhramgurung@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Preferred to be called as BRG(Budh Ram Gurung). 
-  A Gorkha, an Educator, Trainer and Social Entrepreneur.
-  Consider myself as FOSS PAA (FOSS Project Architect & Advocate). 
-  I have gained most of my knowledge through self learning and follows Learn-Teach Cycle practice. 
-  Being involved in Open Source & its Culture was the best thing that happened in my professional career and believe that "Open Source is the Future".
+  Gorkha | Freelance Full Stack Engineer | Trainer | Social Entrepreneur
+  My name is Budh Ram Gurung. However, I preferred to be called as BRG.
+  I am a FOSS Advocate and code for fun.
+  I have gained most of my knowledge through self learning and follows Learn-Teach Cycle practice.
+  Being involved in Open Source & its Culture was the best thing that happened in my professional career and
+  believe that "Open Source is the Future".
 baseurl: "" # the subpath of your site, e.g. /blog
 thumbnail_path: "profile_pic.png"
 url: "https://coolbrg.me" # the base hostname & protocol for your site, e.g. http://example.com
