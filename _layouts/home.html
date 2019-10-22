@@ -3,63 +3,35 @@ layout: default
 ---
 
 <div id="home" class="row">
-  <div class="col-lg-3 col-md-4 col-sm-12 col-xs-12 border-secondary alt-bg-color1 border-right text-center">
-    <div class="home-right-section m-4">
-      <h4>About</h4>
-    </div>
-    <div class="profile-pic mb-4">
-      {% assign site_title = site.title %}
-      {% include image.html 
-                 img="/profile_pic.png"
-                 title=site_title
-                 class="rounded-circle"
-      %}
-    </div>
-    <div class="about-brief-info text-muted">
-      {{ site.data.about.brief_intro | truncatewords: 45 }}
-      <a href="/about" role="button" class="btn btn-sm btn-danger">Know More</a>
-    </div>
-
-    <div class="social-links m-5">
-      {% for contacts_hash in site.data.home.contacts %}
-        {% assign contact = contacts_hash[1] %}
-        <a href="{{ contact.url }}" target="_blank" alt="{{ contact.label }}">
-          <i class="{{ contact.class }}"></i>
-        </a>
-      {% endfor %}
-    </div>
-  </div>
-
-  <div class="col-lg-9 col-md-8 col-sm-12 col-xs-12 p-2">
+  <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 p-2">
     <!-- Blogs Work -->
     <div class="home-right-section mt-4">
       <div class="text-center">
         <h4>LATEST BLOGS</h4>
       </div>
-      <div class="row">
-        {% for post in site.posts limit: 3 %}
+      <div class="row mt-4">
+        {% for post in site.posts limit: 6 %}
           {% include blogs/post-outline.html post=post %}
         {% endfor %}
       </div>
-      <div class="text-center"><a href="/blogs" role="button" class="btn btn-sm btn-dark">
+      <div class="text-center"><a href="/blogs" role="button" class="btn btn-sm btn-dark mb-3">
         <i class="fas fa-list-alt mr-2"></i>View All</a>
       </div>
     </div>
-
-    <hr class="section-divider">
-
+  </div>
+  <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 p-2">
     {% if site.data.foss.projects.size >= 1 %}
       <!-- FOSS Work -->
       <div class="home-right-section mt-4">
         <div class="text-center">
           <h4>LATEST PROJECTS</h4>
         </div>
-        <div class="row">
-          {% for project in site.data.foss.projects limit: 3 %}
+        <div class="row mt-4">
+          {% for project in site.data.foss.projects limit: 6 %}
             {% include project-outline.html project=project %}
           {% endfor %}
         </div>
-        <div class="text-center"><a href="/foss" role="button" class="btn btn-sm btn-dark">
+        <div class="text-center"><a href="/foss" role="button" class="btn btn-sm btn-dark mb-3">
             <i class="fas fa-list-alt mr-2"></i>View All</a>
         </div>
       </div>
