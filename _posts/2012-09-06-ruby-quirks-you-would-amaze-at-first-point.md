@@ -3,6 +3,7 @@ layout: post
 title: Ruby Quirks (You would amaze at first point)
 author: Budh Ram Gurung
 date: 2012-09-06 21:52:42.000000000 +05:30
+technical: true
 categories:
 - ruby
 tags:

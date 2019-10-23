@@ -2,6 +2,7 @@
 layout: post
 title: Vagrant issues on upgrading to Fedora 24
 date: 2016-07-17
+technical: true
 categories:
 - Vagrant
 - Fedora

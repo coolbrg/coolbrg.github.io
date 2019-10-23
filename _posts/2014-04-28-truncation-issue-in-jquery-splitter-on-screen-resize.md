@@ -2,6 +2,7 @@
 layout: post
 title: Shrinking issue in jQuery Splitter on screen resize
 date: 2014-04-28 05:04:09.000000000 +05:30
+technical: true
 categories:
 - javascript
 - jQuery

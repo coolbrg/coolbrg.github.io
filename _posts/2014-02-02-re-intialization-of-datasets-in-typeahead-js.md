@@ -2,6 +2,7 @@
 layout: post
 title: Re-initialization of datasets in typeahead.js
 date: 2014-02-02 16:38:52.000000000 +05:30
+technical: true
 categories:
 - javascript
 tags:

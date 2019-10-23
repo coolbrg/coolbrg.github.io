@@ -2,6 +2,7 @@
 layout: post
 title: Use of bootbox.js for creating multiple prompts sequentially
 date: 2014-06-16 17:45:18.000000000 +05:30
+technical: true
 categories:
 - bootboxjs
 - javascript

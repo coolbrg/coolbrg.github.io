@@ -3,6 +3,7 @@ layout: post
 author: BRG
 title: "Intro to Splat (*) operator in Ruby"
 date: 2012-09-15 16:52:33.000000000 +05:30
+technical: true
 categories:
 - ruby
 tags:

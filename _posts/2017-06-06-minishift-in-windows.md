@@ -2,6 +2,7 @@
 layout: post
 title: Run OpenShift locally in Windows 10
 date: 2017-06-06
+technical: true
 categories:
 - cloud
 - devops

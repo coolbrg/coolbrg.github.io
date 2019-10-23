@@ -7,12 +7,52 @@ layout: default
     <!-- Blogs Work -->
     <div class="home-right-section mt-4">
       <div class="text-center">
-        <h4>LATEST BLOGS</h4>
+        <h4>BLOGS</h4>
       </div>
+
       <div class="mt-4">
-        {% for post in site.posts limit: 6 %}
-          {% include blogs/post-outline.html post=post %}
-        {% endfor %}
+        <!-- blogs tabs -->
+        
+        <nav class="ml-3 blogs-list mb-4">
+          <div class="nav nav-tabs nav-justified mt-1" id="blogs-tab" role="tablist">
+            <a class="mr-2 active" data-toggle="tab" href="#blogs-latest" role="tab">
+              Latest(5) &nbsp;&nbsp;|
+            </a>
+            <a class="mr-2" data-toggle="tab" href="#blogs-tech" role="tab">
+              Technical(5) &nbsp;&nbsp;|
+            </a>
+            <a class="" data-toggle="tab" href="#blogs-nontech" role="tab">
+              Non Technical(5)
+            </a>
+          </div>
+        </nav>
+
+        <!-- Tab panes -->
+        <div class="tab-content" id="blogs-tabContent">
+          <div role="tabpanel" class="tab-pane fade show active" id="blogs-latest">
+            {% for post in site.posts limit: 5 %}
+              {% include blogs/post-outline.html post=post %}
+            {% endfor %}
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="blogs-tech">
+            {% assign i = 0 %}
+            {% for post in site.posts %}
+              {% if post.technical and i < 5 %}
+                {% include blogs/post-outline.html post=post %}
+                {% assign i = i | plus:1 %}
+              {% endif %}
+            {% endfor %}
+          </div>
+          <div role="tabpanel" class="tab-pane fade" id="blogs-nontech">
+            {% assign i = 0 %}
+            {% for post in site.posts %}
+              {% if post.technical != 'true' and i < 5 %}
+                {% include blogs/post-outline.html post=post %}
+                {% assign i = i | plus:1 %}
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
       </div>
       <div class="text-center"><a href="/blogs" role="button" class="btn btn-sm btn-dark mb-3">
         <i class="fas fa-list-alt mr-2"></i>View All</a>

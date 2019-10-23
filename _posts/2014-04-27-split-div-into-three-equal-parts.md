@@ -2,6 +2,7 @@
 layout: post
 title: Split div into three equal parts vertically
 date: 2014-04-27 10:58:14.000000000 +05:30
+technical: true
 categories:
 - javascript
 - jQuery
