@@ -27,6 +27,18 @@ header {
   height: 100px;
   margin-left: 20px;
 }
+.nav {
+  .nav-item {
+    .nav-link {
+      color: #111;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+  }
+  .nav-item.active .nav-link {
+    font-weight: bold;
+  }
+}
 
 .navbar {
   padding: 5px;
