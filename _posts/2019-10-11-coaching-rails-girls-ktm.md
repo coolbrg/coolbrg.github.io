@@ -31,7 +31,7 @@ Ever since I came to Nepal in April 2019 I wanted to attend or conduct any Ruby 
 into the Ruby Nepal slack long back, frequent interactions started to happened when I joined the `railsgirls-nepal` channel in the first week of July after the communication with Ruby Nepal head [Saroj](https://twitter.com/zoraslapen){:target="_blank"}.
 As the name suggests, this channel was created to discuss everything related to organizing [Rails Girls Kathmandu](http://railsgirls.com/kathmandu){:target="_blank"}. I went through the previous discussion and gave a few of my suggestions based on the experience of [Rails Girls Pune](http://railsgirls.com/pune){:target="_blank"}. Most of the internal communication happened through emails for coaches. I felt good to be chosen as one of the coaches.
 
-Note: Click here for [Ruby Nepal Community website](http://rubynepal.com){:target="_blank"}
+Note: Click here for [Ruby Nepal Community website](http://rubynepal.org){:target="_blank"}
 
 ## Event Day 1 - Installation
 
