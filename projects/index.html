@@ -1,13 +1,13 @@
 ---
 layout: default
-title: FOSS
-permalink: /foss/
+title: Projects
+permalink: /projects/
 ---
 
-<div id="foss-page">
-  <div class="foss-page-body pt-4">
+<div id="projects-page">
+  <div class="projects-page-body pt-4">
     <div class="row">
-      {% for project in site.data.foss.projects %}
+      {% for project in site.data.projects %}
         {% include project-outline.html project=project %}
       {% endfor %}
     </div>
