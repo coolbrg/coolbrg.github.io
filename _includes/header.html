@@ -13,7 +13,7 @@
       <div class="col-lg-3 col-md-4 text-center">
         <h2 class="profile-name">BRG</h2>
         <p class="profile-bio">Freelance Full Stack Engineer | Trainer</p>
-        <p class="profile-links m-0"> <a class="social-link" href="http://twitter.com/johndoe"> 
+        <p class="profile-links m-0">
           {% for contacts_hash in site.data.home.contacts %}
           {% assign contact = contacts_hash[1] %}
           <a href="{{ contact.url }}" class="mr-2" target="_blank" alt="{{ contact.label }}">
