@@ -4,13 +4,13 @@ title: About
 permalink: /about/
 ---
 
-<div class="about-section py-4">
+<div class="about-section py-5">
   <h2 align="center" class="p-1">Brief Intro</h2>
   <p class="intro-body py-2">
     {{ site.data.about.brief_intro }}
   </p>
 
-  <div class="text-center">
+  <div class="text-center mt-5">
     <h2 class="p-1">Current Roles</h2>
     <div class="d-sm-flex justify-content-center">
       {% for role in site.data.about.roles %}
@@ -19,8 +19,8 @@ permalink: /about/
     </div>
   </div>
   
-  <div class="text-center">
-    <h2 class="p-1">Journey</h2>
+  <div class="text-center mt-5">
+    <h2 class="p-1">Professional Journey</h2>
     <div class="col-sm-12">
       {% include timeline.html %}
     </div>

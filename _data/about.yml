@@ -1,11 +1,15 @@
 tagline: Trying to Live Simple Life
 brief_intro: |
-  <a href="https://en.wikipedia.org/wiki/Gurkha" target="_blank"><i>Gorkha</i></a>  |  
-  <i>Freelance Full Stack Engineer</i> | <i>Trainer</i> | <i>Social Entrepreneur</i>
-  
+  Professional Trainer | <i>Full Stack Engineer</i> | <i>Researcher</i> | <i>FOSS Lover</i> |
+  <a href="https://en.wikipedia.org/wiki/Gurkha" target="_blank"><i>Gorkha</i></a> | A Human Being
+
   <hr>
 
   My name is Budh Ram Gurung. However, I preferred to be called as <b>BRG</b>. 
+  I recently switched to full time training to follow my passion of teaching. I have an overall 8+ years of
+  IT industry experience and nearly worked in all stack of Software Development, Front-end, Back-end, DevOps,
+  Development process, Agile and Community.
+  <br>
   <br>
   I am a <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a> 
   Advocate and code for fun.
@@ -18,43 +22,35 @@ brief_intro: |
   professional career and<br> believe that <i>"Open Source is the Future"</i>.
 roles:
 # Max three current roles
-  - company: SYF Nepal
-    designation: Chief Technology Officer(CTO)
-    logo: syf.png
-    link: https://syfnepal.com
+  - company: Self
+    designation: Pro Trainer
+    logo: freelancer.png
+    link: https://freelancerbrg.com
     intro: |
-      Siris Youth Foundation(SYF) is a social enterprise company and was established in 2016. 
-      They help their client in their business with their IT and Multimedia capabilities.
-      They would work hand to hand to support their client's growth. 
-  - company: GbrG Academy
-    designation: Founder & Director
-    logo: gbrg.png
-    link: https://gbrgacademy.com
-    intro: |
-      GbrG Academy is or will be going to spread Education which has been acquired completely
-      out of real world experiences apart from the Bookish knowledge. The approach of teaching
-      will be based mostly around Cognitive Learning and Feedback Driven Learning.
+      A professional trainer and full stack engineer who is working on providing quality training to 
+      upcoming generation with the mission of "Better Engineers Today. Better Softwares Tomorrow."
+      Apart from it, he build softwares for fun.
   - company: ETT India
     designation: Website Maintainer
     logo: ett.png
     link: https://ettindia.org
     intro: |
       ETT India is a non-profit organisation which focuses on creating opportunities & conducting
-      events to promote Open Source contributions in India. They are organizing the
-      national-level conferences like RubyConf India, Gophercon India, DevOpsDays India etc.
+      events to promote Open Source contributions in India. They organize the conferences like 
+      RubyConf India, Gophercon India, DevOpsDays India etc.
 journey:
-  - company: Siris Youth Foundation(SYF) Nepal
-    from: Aug 25, 2019
+  - company: Self-employed Freelancer
+    from: Oct 1, 2019
     to: Present
     direction: direction-r
-    designation: Chief Technology Officer(CTO
-    image: "syf.png"
-  - company: GbrG Academy
-    from: Feb 1, 2019
+    designation: Pro Trainer
+    image: "freelancer.png"
+  - company: SYF Nepal
+    from: Aug 25, 2019
     to: Present
     direction: direction-l
-    designation: Founder & Director
-    image: "gbrg.png"
+    designation: Chief Technology Officer(CTO
+    image: "syf.png"
   - company: Averon Media
     from: Dec 10, 2018
     to: April 30, 2019

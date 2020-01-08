@@ -6,15 +6,12 @@ layout: default
 
 <div id="home" class="row">
   <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 p-2">
-    <!-- Blogs Work -->
     <div class="home-right-section mt-4">
       <div class="text-center">
         <h4>BLOGS</h4>
       </div>
 
       <div class="mt-4">
-        <!-- blogs tabs -->
-        
         <nav class="ml-3 blogs-list mb-4">
           <div class="nav nav-tabs nav-justified mt-1" id="blogs-tab" role="tablist">
             <a class="mr-2 active" data-toggle="tab" href="#blogs-latest" role="tab">
@@ -29,8 +26,6 @@ layout: default
           </div>
         </nav>
 
-        <!-- Tab panes -->
-        
         <div class="tab-content" id="blogs-tabContent">
           <div role="tabpanel" class="tab-pane fade show active" id="blogs-latest">
             {% for post in site.posts limit: max_limit %}
@@ -80,4 +75,13 @@ layout: default
       </div>
     {% endif %}  
   </div> 
+</div>
+
+<div class="row">
+  <div class="col-md-6">
+
+  </div>
+  <div class="col-md-6">
+    
+  </div>
 </div>
