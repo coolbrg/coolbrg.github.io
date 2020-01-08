@@ -83,7 +83,7 @@ header {
 .goback-link {
   color: #007bff !important;
 }
-.home-right-section h4 {
+.home-right-section h3, .work-and-education h3 {
   font-family: "Oswald", sans-serif;
 }
 .section-divider {
@@ -191,5 +191,52 @@ header {
     position: relative;
     border-radius: 6px;
     box-shadow: 2px 2px 4px 0px #c1c1c1;
+  }
+}
+
+.work-and-education {
+  .card {
+    padding: 20px;
+    border: none;
+    width: 18rem;
+  }
+  .card-body {
+    padding: .5em 1em;
+  }
+  .card-title {
+    font-size: 16px;
+    color: #444;
+  }
+  .card-text {
+    font-size: 13px;
+    color: #777;
+  }
+  .card-img-top {
+    height: 80px;
+    width: auto;
+    padding: 0 20px;
+    margin: auto;
+  }
+}
+.educational-journey {
+  .card {
+    padding: 20px;
+    border: none;
+    width: 18rem;
+  }
+  .card-img-top {
+    width: 100px;
+    margin: auto;
+  }
+  .card-body {
+    padding: .5em 1em;
+  }
+  .card-title {
+    font-size: 15px;
+    color: #444;
+  }
+  .card-text {
+    font-size: 13px;
+    color: #777;
   }
 }

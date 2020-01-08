@@ -30,3 +30,21 @@ permalink: /about/
     </div>
   </div>
 </div>
+
+<div class="educational-journey py-5">
+  <div class="container">
+    <div class="text-center">
+      <h2 class="p-1">Educational Journey</h2>
+    </div>
+
+    <div class="col-md-12">
+      <div class="row">
+        {% for info in site.data.about.education %}
+          <div class="col-md-4">
+            {% include education-outline.html data=info %}
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>  
+</div>

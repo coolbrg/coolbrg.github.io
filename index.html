@@ -4,11 +4,11 @@ layout: default
 
 {% assign max_limit = 3 %}
 
-<div id="home" class="row">
+<div id="home" class="row mt-4">
   <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 p-2">
     <div class="home-right-section mt-4">
       <div class="text-center">
-        <h4>BLOGS</h4>
+        <h3>BLOGS</h3>
       </div>
 
       <div class="mt-4">
@@ -62,7 +62,7 @@ layout: default
       <!-- Projects -->
       <div class="home-right-section mt-4">
         <div class="text-center">
-          <h4>LATEST PROJECTS</h4>
+          <h3>LATEST PROJECTS</h3>
         </div>
         <div class="mt-4">
           {% for project in site.data.projects limit: max_limit %}
@@ -77,11 +77,21 @@ layout: default
   </div> 
 </div>
 
-<div class="row">
-  <div class="col-md-6">
 
+<div class="row work-and-education py-4 pb-5">
+
+  <div class="col-md-12 work-experience">
+    <div class="text-center">
+      <h3 class="mb-4">WORK EXPERIENCE</h3>
+    </div>
+
+    <div class="row">
+      {% for info in site.data.about.journey limit: 3 %}
+        <div class="col-md-4">
+          {% include experience-outline.html data=info %}
+        </div>  
+      {% endfor %}
+    </div>
   </div>
-  <div class="col-md-6">
-    
-  </div>
+
 </div>
