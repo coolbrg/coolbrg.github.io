@@ -1,9 +1,11 @@
-<div class="{{ include.data.direction }}">
-  <div class="flag-wrapper">
-    <span class="flag">{{ include.data.company }}</span>
-    <span class="time-wrapper"><span class="time">{{ include.data.from }} - {{ include.data.to }}</span></span>
-  </div>
-  <div class="desc">
-    {{ include.data.designation }}
+<div class="timeline-container {{ include.direction }}">
+  <div class="content">
+    <h5>
+      {{ include.data.designation }}
+    </h5>
+    <p class="mb-1">in <b>{{ include.data.company }}</b></p class="mb-1">
+    <p class="mb-1">
+      from {{ include.data.from }} - {{ include.data.to }}
+    </p>
   </div>
 </div>

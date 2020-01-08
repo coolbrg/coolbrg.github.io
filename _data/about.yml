@@ -47,9 +47,9 @@ journey:
     image: "freelancer.png"
   - company: SYF Nepal
     from: Aug 25, 2019
-    to: Present
+    to: Sept, 2019
     direction: direction-l
-    designation: Chief Technology Officer(CTO
+    designation: Chief Technology Officer(CTO)
     image: "syf.png"
   - company: Averon Media
     from: Dec 10, 2018
@@ -61,11 +61,11 @@ journey:
     from: Feb 8, 2016
     to: Dec 5, 2018
     direction: direction-l
-    designation: Sr Software Engineer
+    designation: Sr. Software Engineer
     image: "redhat.png"
   - company: Vertis Microsystems
     from: Aug 16, 2011
     to: Jan 29, 2016
     direction: direction-r
-    designation: Intern, Full Stack Engineer
+    designation: Full Stack Engineer
     image: "vertis.png"

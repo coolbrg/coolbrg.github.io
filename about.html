@@ -1,27 +1,31 @@
 ---
-layout: default
+layout: base
 title: About
 permalink: /about/
 ---
 
-<div class="about-section py-5">
-  <h2 align="center" class="p-1">Brief Intro</h2>
-  <p class="intro-body py-2">
-    {{ site.data.about.brief_intro }}
-  </p>
+<div class="container">
+  <div class="about-section py-5 px-3">
+    <h2 align="center" class="p-1">Brief Intro</h2>
+    <p class="intro-body py-2">
+      {{ site.data.about.brief_intro }}
+    </p>
 
-  <div class="text-center mt-5">
-    <h2 class="p-1">Current Roles</h2>
-    <div class="d-sm-flex justify-content-center">
-      {% for role in site.data.about.roles %}
-        {% include role-outline.html role=role %}
-      {% endfor %}
+    <div class="text-center mt-5">
+      <h2 class="p-1 mb-4">Current Roles</h2>
+      <div class="d-sm-flex justify-content-center">
+        {% for role in site.data.about.roles %}
+          {% include role-outline.html role=role %}
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  </div>  
+</div>
   
-  <div class="text-center mt-5">
+<div class="professional-journey text-center py-5">
+  <div class="container">
     <h2 class="p-1">Professional Journey</h2>
-    <div class="col-sm-12">
+    <div class="col-sm-12 mt-4">
       {% include timeline.html %}
     </div>
   </div>
