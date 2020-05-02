@@ -9,7 +9,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   believe that "Open Source is the Future".
 baseurl: "" # the subpath of your site, e.g. /blog
 thumbnail_path: "profile_pic.png"
-url: "https://coolbrg.me" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://coolbrg.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 future: true # Show blog post of future date
 
 google_analytics: UA-133657720-1

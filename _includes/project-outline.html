@@ -1,23 +1,21 @@
-<div class="col-md-12 col-sm-12 mb-4">
-  <div class="blog-card p-3">
-    <div class="row">
-      <div class="col-md-12">
-        <div class="card-body">
-          <div>
-            <span class="blog-card-title font-weight-bold h5 mr-2">
-              <a class="post-title" href="{{ include.project.url }}" target="_blank">{{ include.project.name }}</a>
-            </span>
-            &nbsp;|&nbsp;
-            <span class="h5 ml-2">
-              <a class="post-title" href="{{ include.project.src }}" target="_blank"><i class="fas fa-file-code"></i></a>
-            </span>
-          </div>
-
-          <p class="blog-card-text mt-3">
-            {{ include.project.description }}
-          </p>
-        </div>
+<div class="project-card {{ include.col_class }}">
+  <div class="card-body">
+    <a class="project-title" href="{{ include.project.url }}" target="_blank">
+      <div class="project-img">
+        <img src="/assets/img/{{ include.project.img }}" class="img-fluid" />
       </div>
-    </div>
+      <div class="project-card-title py-2 mr-2">
+        {{ include.project.name }}
+      </div>
+    </a>
+
+    <p class="project-card-text m-0">
+      {{ include.project.description }}
+      &nbsp;
+      {% if include.project.src %}
+        <a class="project-source" href="{{ include.project.src }}" target="_blank">
+          <br>{ Source }</a>
+      {% endif %}
+    </p>
   </div>
 </div>

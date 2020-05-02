@@ -2,7 +2,7 @@
 layout: default
 ---
 
-{% assign max_limit = 3 %}
+{% assign max_limit = 5 %}
 
 <div id="home" class="row mt-4">
   <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 p-2">
@@ -65,7 +65,7 @@ layout: default
           <h3>LATEST PROJECTS</h3>
         </div>
         <div class="mt-4">
-          {% for project in site.data.projects limit: max_limit %}
+          {% for project in site.data.projects limit: 3 %}
             {% include project-outline.html project=project %}
           {% endfor %}
         </div>
@@ -73,8 +73,8 @@ layout: default
             <i class="fas fa-list-alt mr-2"></i>View All</a>
         </div>
       </div>
-    {% endif %}  
-  </div> 
+    {% endif %}
+  </div>
 </div>
 
 
@@ -89,7 +89,7 @@ layout: default
       {% for info in site.data.about.journey limit: 3 %}
         <div class="col-md-4">
           {% include experience-outline.html data=info %}
-        </div>  
+        </div>
       {% endfor %}
     </div>
   </div>

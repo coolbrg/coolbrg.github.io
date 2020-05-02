@@ -1,19 +1,18 @@
 tagline: Trying to Live Simple Life
 brief_intro: |
-  Professional Trainer | <i>Full Stack Engineer</i> | <i>Researcher</i> | <i>FOSS Lover</i> |
-  <a href="https://en.wikipedia.org/wiki/Gurkha" target="_blank"><i>Gorkha</i></a> | A Human Being
+  <i>Teacher | Educator | EdTechpreneur | Open Source Contributor | Software Engineer | Researcher | Human Being</i>
 
   <hr>
 
-  My name is Budh Ram Gurung. However, I preferred to be called as <b>BRG</b>. 
+  My name is Budh Ram Gurung. However, I preferred to be called as <b>BRG</b>.
   I recently switched to full time training to follow my passion of teaching. I have an overall 8+ years of
   IT industry experience and nearly worked in all stack of Software Development, Front-end, Back-end, DevOps,
   Development process, Agile and Community.
   <br>
   <br>
-  I am a <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a> 
+  I am a <a href="https://en.wikipedia.org/wiki/Free_and_open-source_software" target="_blank">FOSS</a>
   Advocate and code for fun.
-  
+
   <br><br>
   I have gained most of my knowledge through self learning and follows
   <i>Learn-Teach Cycle</i> practice.
@@ -27,7 +26,7 @@ roles:
     logo: freelancer.png
     link: https://freelancerbrg.com
     intro: |
-      A professional trainer and full stack engineer who is working on providing quality training to 
+      A professional trainer and full stack engineer who is working on providing quality training to
       upcoming generation with the mission of "Better Engineers Today. Better Softwares Tomorrow."
       Apart from it, he build softwares for fun.
   - company: ETT India
@@ -36,7 +35,7 @@ roles:
     link: https://ettindia.org
     intro: |
       ETT India is a non-profit organisation which focuses on creating opportunities & conducting
-      events to promote Open Source contributions in India. They organize the conferences like 
+      events to promote Open Source contributions in India. They organize the conferences like
       RubyConf India, Gophercon India, DevOpsDays India etc.
 journey:
   - company: Self-employed Freelancer
@@ -77,11 +76,10 @@ education:
     image: education/kvs.png
     passout: 2002
   - level: Schooling
-    name: Arya Public School (4 - 7) 
+    name: Arya Public School (4 - 7)
     image: education/arya.png
     passout: 1999
   - level: Schooling
-    name: KV Bakloh (1 - 3) 
+    name: KV Bakloh (1 - 3)
     image: education/kvs.png
     passout: 1995
-    
